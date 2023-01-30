@@ -2,6 +2,8 @@ name: Hello, world docker ci
 
 on:
   push:
+    branches:
+      - main
     paths: 
       - hello-world-docker-action/*
   workflow_dispatch:
