@@ -20,5 +20,5 @@ jobs:
       - name: echo event name
         run: 
           echo ${{github.event_name}}
-          echo ${{github.branch_name}}
-          ls
+          echo ${{github.ref_name}}
+          echo ls
